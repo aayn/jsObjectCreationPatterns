@@ -10,5 +10,8 @@ function createPerson(name, age) {
   return o;
 }
 
-var p1 = createPerson("Aayush", 20);
+var p1 = createPerson("Pikachu", 20);
+var p2 = createPerson("Charizard", 20);
 p1.greetMe();
+
+console.log(typeof p1);
